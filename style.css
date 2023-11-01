@@ -18,7 +18,7 @@ body {
 body > main {
   background-color: white;
   width: 90vw;
-  height: 87vh;
+  height: 90vh;
   border-radius: 20px;
 }
 
@@ -105,7 +105,7 @@ main a:hover {
 
   body > main {
     width: 30rem;
-    height: 85vh;
+    height: 90vh;
   }
 
   main > div {
