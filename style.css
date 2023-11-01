@@ -18,7 +18,7 @@ body {
 body > main {
   background-color: white;
   width: 90vw;
-  height: 90vh;
+  height: 85vh;
   border-radius: 20px;
 }
 
@@ -33,7 +33,8 @@ main > div {
   display: flex;
   flex-direction: column;
   padding-inline: 10px;
-  gap: 1.5rem;
+  padding-bottom: 10px;
+  gap: 1.3rem;
 }
 
 main > div > h1 {
@@ -110,5 +111,6 @@ main a:hover {
 
   main > div {
     padding-inline: 40px;
+    padding-bottom: 10rem;
   }
 }
