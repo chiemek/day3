@@ -1,0 +1,114 @@
+/* css reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-size: cover;
+  height: 100vh;
+}
+
+body > main {
+  background-color: white;
+  width: 90vw;
+  height: 87vh;
+  border-radius: 20px;
+}
+
+main > img {
+  width: inherit;
+  height: 15rem;
+  border-radius: 20px 20px 0 0;
+}
+
+main > div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 10px;
+  gap: 1.5rem;
+}
+
+main > div > h1 {
+  color: rgb(3, 26, 3);
+  margin-top: 1.5rem;
+}
+
+main > div > p {
+  font-size: 1.3rem;
+  color: grey;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-size: 1rem;
+}
+
+.container > div > div {
+  line-height: 1.5rem;
+}
+
+.container > div p:last-child {
+  color: grey;
+  font-style: bold;
+  font-weight: 600;
+}
+
+.container > div p:first-child {
+  font-style: bold;
+  font-weight: 600;
+}
+
+main button {
+  width: inherit;
+  height: 3.5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-size: 1.2rem;
+  box-shadow: 0 30px 10px rgba(53, 11, 221, 0.1);
+}
+
+main button:hover {
+  background-color: rgb(99, 99, 240);
+}
+
+main a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 700px) {
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: cover;
+  }
+
+  body > main {
+    width: 30rem;
+    height: 85vh;
+  }
+
+  main > div {
+    padding-inline: 40px;
+  }
+}
